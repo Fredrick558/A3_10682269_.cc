@@ -1,0 +1,59 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+  int marks=0;
+  cout << "Please enter your marks"<< endl;
+  cin>> marks
+  
+  if (marks<101 && marks<= 80)	
+  {
+  	cout << "You had grade A"<< endl;
+  }
+  
+  if (marks<80 && marks<=75)
+  {
+  	cout << "You had grade B+"<<endl;	
+  }	
+  
+  if ( marks<75 && marks<=70)
+  {
+  	cout << "You had grade B"<<endl;
+  }	
+	
+  if (marks<70 && marks <=65)
+  {
+  	cout << "You had grade C+"<<endl
+  }	
+ 
+  if (marks<65 && marks<=60)
+  {
+  	cout << "You had grade C"<<endl
+  }	
+	
+  if(marks<60 && marks<=55)	
+  {
+  	cout<< "You had grade D+"<<endl
+  }
+
+  if(marks<55 && marks<=50)	
+  {
+  	cout << "You had grade D"<<endl
+  }
+  
+  if (marks<50 && marks<=49)
+	{
+		cout << "You had grade E"<<endl;
+	}
+	
+   if (marks<49 && marks<=0)
+   {
+   	cout<< "You had grade F"<<endl;
+   }	
+	
+	
+  return 0;
+	
+}
